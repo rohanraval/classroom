@@ -1,0 +1,167 @@
+/* Site Colors:
+  #1A446C - blue grey
+  #689DC1 - light blue
+  #D4E6F4 - very light blue - same
+  #EEE4B9 - light tan
+  #8D0D19 - burgundy - orange
+*/
+
+/* Site Colors:
+	#e65c00 - orange
+	#fff2e6 - very light orange
+	#fff7e6 - light tan
+	#ffefcc - darker tan
+	#000066 - navy
+	#99ccff - very light blue
+*/
+
+html { height: 100%; width: 100%; }
+body {
+  width: 100%; height: 100%;
+  margin: 0; padding: 0; border: 0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 13px; line-height: 15px;
+  background: #000066;
+}
+img { border: 2px solid; }
+a { color: #e65c00; }
+a:hover { color: #000066; }
+
+#header {
+	height: 70px;
+	margin: 0; padding: 0; text-align: left;
+  	background: #000066; color: #99ccff;
+}
+#header a { color: #99ccff; text-decoration: none;}
+#header h1 {
+	padding: 1em; margin: 0;
+	font-family: "Courier New", Courier, monospace; font-weight: 600;
+	text-align: center;
+}
+
+#main {
+	height: 600px; width: 100%;
+	margin: 0; padding: 0;
+	background: #fff7e6;
+}
+#footer {
+	clear: both;
+	height: 2em; margin: 0; padding: 1em;
+	text-align: center;
+  	background: #000066;  color: #99ccff;
+}
+
+/* Navigation */
+#navigation {
+	float: left;
+	width: 150px;
+	height: 100%;
+	margin: 0; padding: 0 2em;
+	color: #000066; background: #e65c00;
+	font-size: 15px;
+}
+#navigation a { color: #000066; text-decoration: none; }
+#navigation a:hover { color: #fff2e6; }
+ul.courses { margin: 1em 0; margin: 0em 0; padding-left: 1.5em; list-style: square; }
+ul.subjects { margin: 1em 0; padding-left: 0; list-style: none; }
+ul.pages { padding-left: 2em; list-style: square; font-weight: normal; font-size: 12px; }
+.selected { font-weight: bold; }
+#navigation li {
+	padding-top: 1em;
+}
+#navigation div {
+	margin-top: 10px;
+	width: 60%;
+	padding: 20px;
+	text-align: center;
+	color: #000066;
+	border: 2px solid #000066;
+	background: #ffefcc;
+}
+#navigation div:hover { box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);}
+
+/* Page Content */
+#page {
+	float: left; height: 100%;
+	padding-left: 2em; vertical-align: top;
+	background: #fff7e6;
+}
+#page h2 { color: #e65c00; margin-top: 1em;}
+#page h3 { color: #e65c00; }
+
+#intro_message {
+	width: 600px;
+	padding: 15px; border: 2px solid #000066; transition: 0.3s;
+	background-color: #ffefcc;
+}
+#intro_message:hover { box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); }
+
+.content {
+	width: 600px;
+}
+
+#comments {
+	float: right;
+	width: 25%; height: 100%;
+	padding-right: 2em; vertical-align: top;
+}
+.comment {
+	padding: 0.5em 0.5em 0 0.8em;
+	margin-bottom: 0.3em;
+	border: 1px solid #000066;
+    transition: 0.3s;
+	background-color: #ffefcc;
+}
+.comment:hover { box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); }
+#date { font-size: 10px; color: grey;}
+
+.view-content {
+	margin: 1em;
+	padding: 1em;
+	border: 1px solid #999;
+	width: 500px;
+}
+
+.message {
+	border: 2px solid #e65c00;
+	color: #e65c00; font-weight: bold;
+	margin: 1em 0 ; padding: 1em;
+}
+
+/* Students and Courses */
+.view-students {
+	float: right;
+	width: 35%; height: 100%;
+	padding-right: 0; vertical-align: top;
+}
+.students a { padding-right: 15px;}
+
+/* Student Area */
+.course-list {
+	width: 100%;
+	margin: 0 auto;
+}
+.course-list div {
+	margin-top: 5px;
+	padding: 20px;
+	text-align: center;
+	color: #000066;
+	border: 2px solid #000066;
+	background: #ffefcc;
+}
+.course-list div:hover{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); }
+.course-list a { color: #000066; text-decoration: none; }
+.course-list a:hover { color: #fff2e6; }
+
+/* errors */
+.error {
+	color: #e65c00; border: 2px solid #e65c00;
+	margin: 1em 0; padding: 1em;
+}
+.error ul {
+	padding-left: 2em;
+}
+
+#footer {
+	font-family: "Courier New", Courier, monospace;
+}
